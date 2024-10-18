@@ -131,7 +131,7 @@ function Nav() {
   href="/"
 >
   
-  <div className=" mmh text-lg mx-3">Linea Club</div>
+  <div className=" mmh text-lg mx-3">Base Club</div>
 </a>
 </div>
   <button

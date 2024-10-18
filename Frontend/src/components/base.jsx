@@ -91,7 +91,7 @@ function Base() {
         <div className="sidebar-brand-icon rotate-n-15">
           <i className="fas fa-laugh-wink" />
         </div>
-        <div className="sidebar-brand-text mx-3"> Linea Club </div>
+        <div className="sidebar-brand-text mx-3"> Base Club </div>
       </a>
       {/* Divider */}
       <hr className="sidebar-divider my-0" />
@@ -244,12 +244,12 @@ function Base() {
               <div className="card shadow mb-4">
                 <div className="card-header py-3">
                   <h6 className="m-0 font-weight-bold text-primary">
-                  Linea Club
+                  Base Club
                   </h6>
                 </div>
                 <div className="card-body">
                   <p>
-                  Linea Club is a light web wallet and Investment Club
+                  Base Club is a light web wallet and Investment Club
                     platform to manage funds.
                   </p>
                 </div>
