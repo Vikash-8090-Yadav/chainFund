@@ -9,16 +9,16 @@ import SideMenu from './Sidemenu';
 
 
 const networks = {
-    LineaTestnet: {
-    chainId: `0x${Number(59141).toString(16)}`,
-    chainName: "LineaTestnet",
+  BaseTestnet: {
+    chainId: `0x${Number(84532).toString(16)}`,
+    chainName: "BaseTestnet",
     nativeCurrency: {
-      name: "LineaTestnet",
+      name: "BaseTestnet",
       symbol: "ETH",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc.sepolia.linea.build"],
-    blockExplorerUrls: ['https://sepolia.lineascan.build/'],
+    rpcUrls: ["https://base-sepolia.blockpi.network/v1/rpc/public"],
+    blockExplorerUrls: ['https://sepolia.basescan.org/'],
 
   },
 };
@@ -47,7 +47,7 @@ function Nav() {
     
     const balanceWei= await web3.eth.getBalance(accountAddress)
             
-    const finalbalance = web3.utils.fromWei(balanceWei,"ether")+ " "+networks["LineaTestnet"]["nativeCurrency"]["name"];
+    const finalbalance = web3.utils.fromWei(balanceWei,"ether")+ " "+networks["BaseTestnet"]["nativeCurrency"]["name"];
     console.log("result->"+finalbalance);
     setBalance(finalbalance);
     
@@ -67,7 +67,7 @@ function Nav() {
   // console.log( "The netwopr is",await web3.network)
   const chainId = await web3.eth.getChainId();
 
-  const LineaTestnetChainId = parseInt(networks.LineaTestnet.chainId, 16);
+  const BaseTestnetChainId = parseInt(networks.BaseTestnet.chainId, 16);
 
 
   console.log(parseInt(chainId));
@@ -77,12 +77,12 @@ function Nav() {
 
   
  
-  if(chainId1 !== LineaTestnetChainId){
+  if(chainId1 !== BaseTestnetChainId){
 
       await window.ethereum.request({
           method:"wallet_addEthereumChain",
           params:[{
-              ...networks["LineaTestnet"]
+              ...networks["BaseTestnet"]
           }]
       })
   }

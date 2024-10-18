@@ -12,14 +12,14 @@ import {Web3} from 'web3';
 
 const accountAddress = localStorage.getItem("filWalletAddress");
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://sepolia.base.org"));
 
 function SideMenu({ isOpen, setIsOpen, smartAccount, logout, address }) {
 
   const address1 = localStorage.getItem("filWalletAddress");
 
   function hndclck(){
-    window.open(`https://sepolia.lineascan.build/address/${address1}`, '_blank');
+    window.open(`https://base-sepolia.blockscout.com/address/${address1}`, '_blank');
   }
 
   function testclk(){

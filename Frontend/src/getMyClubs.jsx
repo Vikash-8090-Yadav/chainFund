@@ -7,7 +7,7 @@ import {Web3} from 'web3';
 import $ from 'jquery'; 
 import ABI from "./SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc.sepolia.linea.build"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://base-sepolia.blockpi.network/v1/rpc/public"));
 var contractPublic = null;
 
 
