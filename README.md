@@ -67,7 +67,7 @@ The club smart contract has some restrictions, similar to real hedge funds:
 - Only proposal creators can execute them.
 
 
-## What Next for LineaClub ?
+## What Next for Base Club ?
 
 - ChainLink function (Twitter) -> I can use twitter function  to check the  latest post wether that person is fake or real
 -  Ai for recommendation on user interest 
