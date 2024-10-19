@@ -1,10 +1,8 @@
-![Screenshot from 2024-09-05 03-45-08](https://github.com/user-attachments/assets/f47b20b4-9955-4b84-98cf-ef1eb7b48748)
 
 
+## This dapp is live :
 
-## This dapp is live : https://linea-club.vercel.app/
-
-## Demo Video:  https://youtu.be/irMZ_NlpxpY
+## Demo Video: 
 
 
 
@@ -17,8 +15,6 @@ For years I have wanted to participate in fund initiatives to invest in projects
 
 
 //link
-
-![Screenshot from 2024-09-05 03-41-51](https://github.com/user-attachments/assets/9787cc41-dca9-4947-ba8e-c6db377d7a62)
 
 
 
@@ -34,18 +30,15 @@ Its a treasury Management Dapp which helps small startups & students to raise fu
 - Create investment clubs: Just define a name and the club will be associated with the account of the user who creates it (owner).
 
 
-![Screenshot from 2024-09-05 03-43-45](https://github.com/user-attachments/assets/ec37201b-9417-4a7e-85e5-3f5ede10e904)
 
 
 - Join Dao -> User have similar  interest based on their profile can only  join otherwise they r not eligible to join
-
-![Screenshot from 2024-09-05 03-44-15](https://github.com/user-attachments/assets/ca910ac4-f79f-4ffa-814a-2e8b3851770e)
 
 
 
 - Contribute to the club: Any member of a Dao can contribute to the common fund (pool), depositing  coins that can be used in proposals.
  
-![Screenshot from 2024-09-05 03-45-41](https://github.com/user-attachments/assets/2c978b74-9ce7-43fe-8047-308c49b214eb)
+
 
 
 // link
@@ -53,13 +46,11 @@ Its a treasury Management Dapp which helps small startups & students to raise fu
 - Create and Vote on Proposals: Any member who has contributed funds to the club pool can create proposals, giving a description, amount (not to exceed the pool amount), and recipient, with a view to investing in any business/person in a project. Also, all members can approve or reject the proposal (only one vote per member is allowed on each proposal).
 
 
-![Screenshot from 2024-09-05 03-46-52](https://github.com/user-attachments/assets/c95de7f6-9aa2-492e-92ec-f73b3231985e)
 
 
 - Run Proposals: A proposal owner can execute a proposal (if approval is greater than rejection), which will cause the proposal amount to be sent to the specified recipient. The owner can also close a proposal, in case of not continuing with it, either as a cancellation, publication error or to avoid sending funds.
 
 
-![Screenshot from 2024-09-05 03-47-18](https://github.com/user-attachments/assets/cd29398d-5fb3-4ca9-8167-da471ab0d5cf)
 
 
 // link
