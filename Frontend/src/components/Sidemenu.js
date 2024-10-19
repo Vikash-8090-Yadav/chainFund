@@ -23,7 +23,7 @@ function SideMenu({ isOpen, setIsOpen, smartAccount, logout, address }) {
   }
 
   function testclk(){
-    window.open('https://www.infura.io/faucet/linea', '_blank');
+    window.open('https://www.alchemy.com/faucets/base-sepolia', '_blank');
   }
 
   const [value, setValue] = useState(0);
